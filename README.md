@@ -1,4 +1,4 @@
-4ME105 RailsDemo
+RailsDemo
 ================
  
 This is a university assignment for the course **4ME105 - Web and Mobile Development** at School of Computer Science, Physics and Mathematics, Linnaeus University, Sweden.
