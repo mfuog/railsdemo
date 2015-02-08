@@ -14,5 +14,4 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require disqus_rails
 //= require_tree .
