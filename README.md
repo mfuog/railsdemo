@@ -1,12 +1,12 @@
-ActivityConnect
+4ME105 RailsDemo
 ================
  
-This is a university assignment for the course **4ME104 - Social Media Ecosystems** at School of Computer Science, Physics and Mathematics, Linnaeus University, Sweden.
+This is a university assignment for the course **4ME105 - Web and Mobile Development** at School of Computer Science, Physics and Mathematics, Linnaeus University, Sweden.
 
-#####_Assignment 3b_: Interactive services, sensors and social media for improving the quality of life of elderly people
-available at [ActivityConnect](https://activityconnect.herokuapp.com)
+#####_Assignment 2_: Assessment of a Webframework
+available at [4ME105 RailsDemo](https://4ME105railsdemo.herokuapp.com)
 
-_Fall Term 2014_
+_Spring Term 2014_
 
 _by Corinna Breitinger and Myrtha Fuog_
 
