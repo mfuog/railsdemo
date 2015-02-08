@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "RailsDemo" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "RailsDemo" %>">
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <header>
+      <%= render "layouts/navigation" %>
+    </header>
+    <main class="container" role="main">
+
+      <div class="row">
+        <div class="col-md-12">
+          <%= render "layouts/messages" %>
+          <%= disqus_init %>
+          <%= yield %>
+        </div>
+      </div>
+
+    </main>
+  </body>
+</html>

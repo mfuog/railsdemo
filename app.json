@@ -1,0 +1,18 @@
+{
+  "name": "4ME105 RailsDemo",
+  "description": "A demo application for the course 4ME105 at Linnaeus University, summer semester 2015",
+  "logo": "http://en.wikipedia.org/wiki/File:Linneuniversitetet_logo.png",
+  "website": "https://4ME105railsdemo.herokuapp.com",
+  "keywords": [
+    "university assignment",
+    "prototype",
+    "Bootstrap",
+    "authentication",
+    "Devise",
+    "Ruby",
+    "Rails"
+  ],
+  "scripts": {"postdeploy": "bundle exec rake db:migrate; bundle exec rake db:seed"},
+    "RAILS_ENV": "production"
+  }
+}
